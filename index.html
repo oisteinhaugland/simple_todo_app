@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Things todo</h1>
+    <input type="text" id="searchTodoField" placeholder="Filter Todos"> 
+    <label for="filterCompleted">
+        <input type="checkbox" id="filterCompleted"> Hide Completed Todos
+    </label>
+    
+    <div id="todos">
+
+    </div>
+    
+    <form id="todoForm">
+        <input type="text" name="todo" placeholder="Something to do">
+        <button>Add Todo</button>
+    </form>
+
+    <script src="scripts/uuidv4.js"></script> <!-- uuid, universal unide id-->
+    <script src="scripts/todo-functions.js"></script>
+    <script src="scripts/todo-app.js"></script>
+</body>
+</html>
